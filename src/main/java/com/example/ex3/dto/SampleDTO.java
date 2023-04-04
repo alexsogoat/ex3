@@ -1,4 +1,4 @@
-package kr.ac.poly.dto;
+package com.example.ex3.dto;
 
 import lombok.Builder;
 import lombok.Data;
