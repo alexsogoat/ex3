@@ -22,7 +22,7 @@ public class SampleController {
     public void ex1(){
         log.info("ex1.............");
     }
-    @GetMapping({"/ex2", "/exLink"})
+    @GetMapping({"/ex2", "/exLink", "/exFormat"})
     public void exModel(Model model){
         List<SampleDTO> list = IntStream.rangeClosed(1,20).asLongStream().mapToObj(i->{
             SampleDTO dto = SampleDTO.builder()
